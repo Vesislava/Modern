@@ -1,0 +1,118 @@
+/*Top menu - Logo*/
+
+div.logo {
+	height: 90px;
+}
+
+.logo a img {
+	margin-top: 25px;
+}
+
+.logo p {
+	float: right;
+	font-size: 13px;
+	font-family: 'robotoregular';
+	margin-top: 40px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+	background-image: url("../img/jumbotron.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover ;
+	background-position: center center;
+	opacity: 0.95;
+	position: relative;
+		
+}
+.jumbotron .overlay {
+  background-color: #292c34;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.jumbotron .jumbotron-text {
+	text-align: center;
+}
+
+.jumbotron-text h2 {
+	padding-top: 165px;
+	text-transform: uppercase;
+	font-size: 32px;
+	color: #fff;
+	font-family: 'robotoregular';
+	font-weight: bold
+}
+
+.jumbotron-text p {
+	padding: 25px 0 45px 0;
+	font-size: 15px;
+	font-family: 'robotoregular';
+	color: #fff;
+}
+.jumbotron-text form button {
+	margin-bottom: 125px;
+	width: 160px;
+	height: 48px;
+	border: 1px solid #fff;
+	background-color: #fb6e52;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 13px;
+	outline: none;
+	transition: 0.3s;
+}
+
+.jumbotron-text form button:hover {
+	animation: pulse 1s infinite;
+  	transition: .3s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(.9);
+  }
+    100% {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+	.logo p {
+		font-size: 18px;
+	}
+	/* Jumbotron */
+	.jumbotron-text h2 {
+		font-size: 42px;
+	}
+
+	.jumbotron-text p {
+		font-size: 20px;
+	}
+
+	.jumbotron-text form button {
+		width: 20%;
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+	.jumbotron-text form button {
+		width: 40%;
+		font-size: 18px;
+	}
+}

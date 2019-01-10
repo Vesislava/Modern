@@ -1,0 +1,49 @@
+.bottom-layout {
+	background-color: #292c34;
+}
+
+.logo-reserve {
+	display: inline-block;
+	margin: 30px 0;
+}
+
+.bottom-layout .logo-reserve p {
+	font-size: 13px;
+	letter-spacing: -1px;
+	color: #797c82;
+	font-family: 'robotolight';
+	font-weight: 300;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+/* Scoial Icon*/
+
+.social-icon {
+	float: right;
+}
+
+.social-icon ul li {
+	display: inline-block;
+	margin: 43px 0 0 38px;	
+}
+
+.social-icon ul li a {
+	color: #fff;
+}
+
+
+@media only screen and (max-width: 1200px) {
+	
+}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+	footer {
+		width: 100%
+	}
+	.social-icon ul li a i {
+		font-size: 25px;
+	}
+}
